@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+:root{
+    --main-color: #0C0C0C;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --beige-color: #F5EFDB;
+    --yellow-color: #DCCA87;
+    --gray-color: #AAAAAA;
+
+    --font-family-open: 'Open Sans', sans-serif;
+    --font-family-cormorant:'Cormorant Upright', serif;
+
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700; 
+
+    --font-size-light: 16px;
+    --font-size-medium: 18px;
+    --font-size-height: 23px;
+    --font-size-h4: 32px;
+    --font-size-h3: 45px;
+    --font-size-h2: 64px;
+
+    --line-height-light: 20.8px;
+    --line-height-medium: 28px;
+    --line-height-height: 29.9px;
+    --line-height-h4: 31.5px;
+    --line-height-h3: 41.6px;
+    --line-height-h2: 58.5px;
+    --line-height-h1: 83.2px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--black-color);
+}
+
+/* header */
+
+header{
+    background-image: url(/img/headerfone.png);
+    width: 100%;
+    height: 1099px;
+}
+
+/* секция headding__menu */
+
+.headding__menu{
+    padding: 46px 5.99% 47px 5.99%;
+}
+
+.headding__menu-content{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.headding__menu-content img{
+    width: 199px;
+    height: 57px;
+}
+
+.headding__menuGroup-1{
+    display: flex;
+    gap: 32px;
+    margin-left: 25.77%;
+    margin-right: 16.28%;
+}
+
+.headding__menuGroup-1 a{
+
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: var(--font-family-open);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-light);
+    line-height: var(--line-height-medium);
+    letter-spacing: 0.04em;
+    transition: 0.2s;
+}
+
+.headding__menuGroup-1 a:hover{
+    text-decoration: underline;
+    color: var(--yellow-color);
+}
+
+.headding__menuGroup-2{
+    display: flex;
+    gap: 47px;
+    width: 364px;
+}
+
+.headding__menuGroup-2 button{
+    background: none;
+    border: none;
+}
+
+.headding__menuGroup-2 button>span{
+    color: var(--white-color);
+    font-family: var(--font-family-open);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-light);
+    line-height: var(--line-height-medium);
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    transition: 0.2s;
+}
+
+.headding__menuGroup-2 button>span:hover{
+    text-decoration: underline;
+    color: var(--yellow-color);
+}
+
+.headding__menuGroup-2 img{
+    width: 4px;
+    height: 57px;
+}
+
+/* headding */
+
+.headding{
+    color: var(--white-color);
+    background-image: url(/img/ontherocks.png);
+    background-size: 634px 840px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.headding__content{
+    padding: 0 5.52% 85px 5.58%;
+}
+
+.headding__content-hashtag{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    gap: 40px;
+    width: 32px;
+    height: 217px;
+}
+
+.headding__content-hashtag p{
+    font-family: var(--font-family-open);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-h4);
+    color: #FFFFFF;
+
+    transform: rotate(-90deg);
+    
+}
+
+.headding__content h1{
+    width: 100%;
+    height: 235px;
+    text-align: center;
+    margin-top: 102px;
+    margin-bottom: 138px;
+
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    font-size: 181px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.headding__content-number{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 116px;
+    height: 28px;
+    transform: rotate(90deg);
+    margin-left: 93.75%;
+}
+
+.headding__content-number span{
+    width: 16px;
+    border-top: 1px solid var(--yellow-color);
+    margin-top: 15.5px;
+}
+
+.headding__content-number p{
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-light);
+    line-height: var(--line-height-medium);
+    letter-spacing: 0.04em;
+    color: var(--beige-color);
+}
+
+.headding__content-scroll{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin-left: 48%;
+    margin-top: 100px;
+}
+
+.headding__content-scroll span{
+    width: 61px;
+    border-top: 1px solid var(--white-color);
+    transform: rotate(90deg);
+}
+
+.headding__content-scroll a{
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-light);
+    line-height: var(--line-height-light);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--yellow-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.headding__content-scroll a:hover{
+    color: var(--white-color);
+}
+
+/* секция reservations */
+
+.reservations>img{
+    position: absolute;
+    margin-left: 84.53%;
+    margin-top: -9.5%;
+}
+
+.reservations__form{
+    margin: 152px 14.47% 152px 14.47%;
+    background-color: var(--main-color);
+    border: 1px solid rgba(220, 202, 135, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.form__headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 48px;
+}
+
+.form__headings p{
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-height);
+    line-height: var(--line-height-height);
+    letter-spacing: 0.04em;
+    color: var(--white-color)
+}
+
+.form__headings h2{
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--yellow-color);
+}
+
+.form__details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    margin-bottom: 48px;
+}
+
+.form__bookNow{
+    margin: 0 2.34%;
+    display: flex;
+    gap: 32px;
+}
+
+.form__bookNow>select,
+.form__bookNow>input{
+    width: 31.69%;
+    height: 60px;
+    border: 1px solid var(--beige-color);
+    border-radius: none;
+    background-color: var(--black-color);
+    background:transparent url(/img/arrow-down-form.svg)  97% 50% no-repeat !important;
+    
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-light);
+    line-height: var(--line-height-medium);
+    letter-spacing: 0.04em;
+    color: var(--gray-color);
+    padding: 16px;
+}
+
+.form__bookNow>input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.form__bookNow>input::-webkit-calendar-picker-indicator{
+    opacity: 0;
+}
+
+.form__bookNow>select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form__details>button{
+    margin-left: 45.12%;
+    padding: 8px 32px;
+    width: 133px;
+    height: 44px;
+    background-color: var(--yellow-color);
+    border: none;
+    transition: 0.3s;
+
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-light);
+    line-height: var(--line-height-medium);
+    letter-spacing: 0.04em;
+    color: var(--main-color);
+}
+
+.form__details>button:hover{
+    background-color: rgba(220, 202, 135, 0.5);
+}
+
+/* секция aboutUs */
+
+.aboutUs{
+    background-image: url(/img/fone-aboutus.png);
+}
+
+.aboutUs__img{
+    position: absolute;
+    margin-left: 7.06%;
+}
+
+.aboutUs__details{
+    padding: 128px 16.14% 79px 16.14%;
+    display: flex;
+    gap: 143px;
+}
+
+.beer-aboutus{
+    margin-top: 136px;
+}
+
+.aboutUs__info img{
+    margin-bottom: 40px;
+}
+
+.aboutUs__info-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.aboutUs__info-headings h5{
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-height);
+    line-height: var(--line-height-height);
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+}
+
+.aboutUs__info-headings img{
+    margin: 0;
+}
+
+.aboutUs__info-headings h2{
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h1);
+    letter-spacing: 0.03em;
+    color: var(--yellow-color);
+}
+
+.aboutUs__info-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+    width: 614px;
+}
+
+.aboutUs__info-paragraph p{
+    color: var(--gray-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    width: 523px;
+}
+
+.aboutUs__info-paragraph a{
+    padding: 8px 32px;
+    background-color: var(--yellow-color);
+    transition: 0.3s;
+
+    color: var(--main-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.aboutUs__info-paragraph a:hover{
+    background-color: rgba(220, 202, 135, 0.5);
+}
+
+
+/* --main-color: #0C0C0C;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --beige-color: #F5EFDB;
+    --yellow-color: #DCCA87;
+    --gray-color: #AAAAAA;
+
+    --font-family-open: 'Open Sans', sans-serif;
+    --font-family-cormorant:'Cormorant Upright', serif;
+
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700; 
+
+    --font-size-light: 16px;
+    --font-size-medium: 18px;
+    --font-size-height: 23px;
+    --font-size-h4: 32px;
+    --font-size-h3: 45px;
+    --font-size-h2: 64px;
+
+    --line-height-light: 20.8px;
+    --line-height-medium: 28px;
+    --line-height-height: 29.9px;
+    --line-height-h4: 31.5px;
+    --line-height-h3: 41.6px;
+    --line-height-h2: 58.5px;
+    --line-height-h1: 83.2px; */
+
