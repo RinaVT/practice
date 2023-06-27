@@ -257,7 +257,6 @@ header{
     font-size: var(--font-size-height);
     line-height: var(--line-height-height);
     letter-spacing: 0.04em;
-    color: var(--white-color)
 }
 
 .form__headings h2{
@@ -418,6 +417,7 @@ header{
     font-weight: var(--font-weight-bold);
     line-height: 175%;
     letter-spacing: 0.64px;
+    text-decoration: none;
 }
 
 .aboutUs__info-paragraph a:hover{
@@ -509,13 +509,265 @@ header{
 }
 
 .todaysSpecial__flex{
-    padding: 152px 16.14%;
+    padding: 152px 16%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 64px;
 }
 
+.todaysSpecial__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.todaysSpecial__menu h5{
+    font-size: var(--font-size-height);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+
+.todaysSpecial__menu h2{
+    color: var(--yellow-color);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    line-height: 130%;
+    letter-spacing: 2.56px;
+}
+
+.todaysSpecial__menu-bar{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu-bar__wineBeer,
+.menu-bar__cocktails{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    height: 596px;
+}
+
+.menu-bar__h3{
+    text-align: center;
+    font-size: var(--font-size-h3);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    line-height: 130%;
+    letter-spacing: 1.8px;
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.menu-bar__drinks{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.menu-bar__drinks-price{
+    display: flex;
+    gap: 32px;
+}
+
+.menu__named{
+    width: 192px;
+    height: 27px;
+    color: var(--yellow-color);
+    font-size: var(--font-size-height);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+
+.line__white{
+    width: 119px;
+    height: 1px;
+    background-color: var(--white-color);
+    margin-top: 13px;
+}
+
+.line__gray{
+    width: 119px;
+    height: 1px;
+    background-color: var(--gray-color);
+    margin-top: 13px;
+}
+
+.menu__price{
+    font-size: var(--font-size-height);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+
+.menu-bar__drinks p{
+    color: var(--gray-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.todaysSpecial__flex a{
+    padding: 8px 32px;
+    text-decoration: none;
+    background: var(--yellow-color);
+    transition: 0.3s;
+
+    color: var(--main-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.todaysSpecial__flex a:hover{
+    background-color: rgba(220, 202, 135, 0.5);
+}
+
+/* секция contact */
+
+.contact{
+    background-image: url(/img/fone-aboutus.png);
+}
+
+.contact__biteDelight{
+    position: absolute;
+    margin-left: 5.05%;
+    margin-top: -120px;
+}
+
+.contact__findUs{
+    padding: 128px 16%;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.findUs__info{
+    height: 488px;
+    width: 503px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 68px;
+}
+
+.findUs__info-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.findUs__info-headings h5{
+    font-size: var(--font-size-height);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+
+.findUs__info-headings h2{
+    color: var(--yellow-color);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    line-height: 130%;
+    letter-spacing: 2.56px;
+}
+
+.findUs__info-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.findUs__info-content p{
+    color: var(--gray-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.info-content__openingHours{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-content__openingHours h5{
+    color: var(--yellow-color);
+    font-size: var(--font-size-height);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+
+.info-content__openingHours p{
+    color: var(--white-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.findUs__info a{
+    padding: 8px 32px;
+    text-decoration: none; 
+    background-color: var(--yellow-color);
+    transition: 0.3s;
+
+    color: var(--main-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.findUs__info a:hover{
+    background-color: rgba(220, 202, 135, 0.5);
+}
+
+.findUs__image{
+    display: flex;
+    width: 667px;
+}
+
+.findUs__image img{
+    position: absolute;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.findUs__image-decor-1,
+.findUs__image-decor-2{
+    width: 333px;
+    height: 435px;
+    background: var(--yellow-color);
+}
+
+.findUs__image-decor-1{
+    margin-top: 301px;
+}
 
 
 /* --main-color: #0C0C0C;
