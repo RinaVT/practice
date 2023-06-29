@@ -339,6 +339,8 @@ header{
 
 .aboutUs{
     background-image: url(/img/fone-aboutus.png);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .aboutUs__img{
@@ -468,6 +470,8 @@ header{
 
 .happyHours{
     background-image: url(/img/foneHappyHours.png);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .happyHours-headings{
@@ -644,6 +648,8 @@ header{
 
 .contact{
     background-image: url(/img/fone-aboutus.png);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .contact__biteDelight{
@@ -769,6 +775,271 @@ header{
     margin-top: 301px;
 }
 
+/* секция newsletter */
+
+.newsletter__biteDelight{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 81.35%;
+    z-index: -1;
+}
+
+.newsletter__fone{
+    padding-top: 373px;
+    margin: 0;
+    height: 1210px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.newsletter__subscribe{
+    padding: 152px 16.14% 0 16.14%;
+}
+
+.newsletter__form{
+    padding: 64px 19.38%;
+    border: 1px solid rgba(220, 202, 135, 0.20);
+    background: var(--main-color);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70);
+}
+
+.newsletter__form-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 64px;
+}
+
+.newsletter__form-headings p{
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.newsletter__headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.newsletter__headings h5{
+    font-size: var(--font-size-height);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+
+.newsletter__headings h2{
+    color: var(--yellow-color);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    line-height: 130%;
+    letter-spacing: 1.92px;
+}
+
+.newsletter__form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.newsletter__form input{
+    height: 60px;
+    width: 635px;
+    background: var(--main-color);
+    border: 1px solid var(--beige-color);
+
+    color: var(--gray-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-semibold);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    padding-left: 19px;
+}
+
+.newsletter__form button{
+    padding: 8px 32px;
+    background: var(--yellow-color);
+    border: none;
+    transition: 0.3s;
+
+    color: var(--main-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.newsletter__form button:hover{
+    background-color: rgba(220, 202, 135, 0.5);
+}
+
+.newsletter__top{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-left: 92.08%;
+    margin-top: -45px;
+}
+
+.newsletter__top a{
+    text-decoration: none;
+    transition: 0.3s;
+
+    color: var(--yellow-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-cormorant);
+    font-weight: var(--font-weight-bold);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.newsletter__top a:hover{
+    color: var(--white-color);
+}
+
+/* секция footer */
+
+.footer__gericht-all{
+    padding: 128px 16.11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.footer__gericht-all>p{
+    color: var(--gray-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    margin-left: 100px;
+}
+
+.footer__gericht{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gericht__contactUs{
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.gericht__contactUs h4,
+.gericht__workingHours h4{
+    color: var(--beige-color);
+    font-size: var(--font-size-h4);
+    font-family: var(--font-family-cormorant);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    line-height: 130%;
+    letter-spacing: 1.28px;
+}
+    
+.contactUs__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.contactUs__contact p,
+.gericht__workingHours-hours p{
+    color: var(--gray-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.gericht__gericht{
+    width: 438px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.gericht__gericht h2{
+    color: var(--yellow-color);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-cormorant);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    line-height: 130%;
+    letter-spacing: 2.56px;
+}
+
+.gericht__gericht-network{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.gericht__gericht-network p{
+    color: var(--white-color);
+    font-size: var(--font-size-light);
+    font-family: var(--font-family-open);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-align: center;
+}
+
+.gericht-network{
+    display: flex;
+    gap: 16px;
+}
+
+.gericht-network a{
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+}
+
+.gericht-network a:hover{
+    background-color: #f5efdb73;
+}
+
+.gericht__workingHours{
+    width: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.gericht__workingHours-hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
 
 /* --main-color: #0C0C0C;
     --black-color: #000000;
