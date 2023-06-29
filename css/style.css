@@ -45,7 +45,7 @@ body{
 /* header */
 
 header{
-    background-image: url(/img/headerfone.png);
+    background-image: url(../img/headerfone.png);
     width: 100%;
     height: 1099px;
 }
@@ -125,7 +125,7 @@ header{
 /* headding */
 
 .headding{
-    background-image: url(/img/ontherocks.png);
+    background-image: url(../img/ontherocks.png);
     background-size: 634px 840px;
     background-repeat: no-repeat;
     background-position: center top;
@@ -338,7 +338,7 @@ header{
 /* секция aboutUs */
 
 .aboutUs{
-    background-image: url(/img/fone-aboutus.png);
+    background-image: url(../img/fone-aboutus.png);
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -469,7 +469,7 @@ header{
 /* секция happyHours */
 
 .happyHours{
-    background-image: url(/img/foneHappyHours.png);
+    background-image: url(../img/foneHappyHours.png);
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -647,7 +647,7 @@ header{
 /* секция contact */
 
 .contact{
-    background-image: url(/img/fone-aboutus.png);
+    background-image: url(../img/fone-aboutus.png);
     background-repeat: no-repeat;
     width: 100%;
 }
